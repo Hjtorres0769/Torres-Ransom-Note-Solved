@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Lavishly+Yours&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
 * {
   padding: 0;
@@ -51,16 +52,57 @@ body {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease-in-out;
 }
+
 .capitalLetter {
   text-transform: uppercase;
   text-decoration: underline;
 }
+
+.aquaLetter {
+  color: aqua;
+}
+
+.purpleLetter {
+  color: purple;
+}
+
+.coralLetter {
+  color: rgb(241, 176, 152);
+}
+
+.redLetter {
+  color: red;
+}
+
+.greenLetter {
+  color: green;
+}
+
+.yellowLetter {
+  color: yellow;
+}
+
+.magentaLetter {
+  color: magenta;
+}
+
+.goldLetter {
+  color: gold;
+}
+
+.orangeLetter {
+  color: orange;
+}
+
+.oliveLetter {
+  color: olive;
+}
+
 /* Sample CSS for the WHY word */
 
 .whyWLetter {
   font-size: 72px;
   font-weight: bold;
-  color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
@@ -69,7 +111,6 @@ body {
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
-  color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
@@ -78,7 +119,6 @@ body {
 .whyYLetter {
   font-size: 60px;
   font-weight: normal;
-  color: coral;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway Dots', sans-serif;
@@ -87,26 +127,23 @@ body {
 /* DID word */
 
 .didDLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 45px;
-  color: red;
   font-weight: 400;
 
 }
 
 .didILetter {
-  font-family: ;
+  font-family: 'dynaPuff', sans-serif;
   font-size: 25px;
-  color: green;
   font-weight: bold;
   text-decoration: overline;
   text-transform: lowercase;
 }
 
 .didDTwoLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 60px;
-  color: yellow;
   font-weight: 700;
 
 }
@@ -114,25 +151,22 @@ body {
 /* THE word */
 
 .theTLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 75px;
-  color: magenta;
   font-weight: bold;
 }
 
 .theHLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 40px;
-  color: gold;
   font-weight: normal;
   text-decoration: line-through;
   text-transform: lowercase;
 }
 
 .theELetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 47px;
-  color: orange;
   font-weight: 400;
   
 }
@@ -140,616 +174,529 @@ body {
 /* FRONT-END word */
 
 .frontendFLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 67px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 
 .frontendRLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 29px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .frontendOLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 37px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-transform: none;
 
 }
 
 .frontendNLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 42px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 
 }
 
 .frontendTLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 34px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
 }
 
 .frontendELetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 72px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 
 .frontendNTwoLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 29px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
 }
 
 .frontendDLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 32px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 74px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 
 .developerELetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 32px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .developerVLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 40px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .developerETwoLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 30px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .developerLLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 45px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .developerOLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 25px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
 .developerPLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 40px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: none;
 }
 .developerEThreeLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 47px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .developerRLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 67px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
 }
 
 /* TAKE word */
 
 .takeTLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 77px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 .takeALetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 38px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: overline;
+  text-transform: none;
 }
 .takeKLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 22px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .takeELetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 69px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
 }
 
 /* UP word */
 
 .upULetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 49px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 }
 .upPLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 24px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 66px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 .gardeningALetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 43px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .gardeningRLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 34px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .gardeningDLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 43px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
 .gardeningELetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 58px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: overline;
+  text-transform: none;
 }
 .gardeningNLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 41px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .gardeningILetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 24px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .gardeningNTwoLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 67px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .gardeningGTwoLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 41px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 64px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 .becauseELetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 33px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .becauseCLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 42px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: none;
 }
 .becauseALetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 52px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
 }
 .becauseULetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 26px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .becauseSLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 23px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
 .becauseETwoLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 44px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 }
 
 /* THEY word */
 
 .theyTLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 59px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 .theyHLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 37px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
 }
 .theyELetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 22px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .theyYLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 26px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 76px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 }
 .wantedALetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 36px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .wantedNLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 21px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .wantedTLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 40px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: none;
 }
 .wantedELetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 34px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
 .wantedDLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 39px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 }
 
 /* TO word */
 
 .toTLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 70px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 .toOLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 35px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 79px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 
 }
 .improveMLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 56px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .improvePLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 70px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .improveRLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 23px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
 .improveOLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 53px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .improveVLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 28px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: overline;
+  text-transform: none;
 }
 .improveELetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 33px;
-  color: ;
-  font-weight: ;
+  font-weight: 700;
 }
 
 /* THEIR word */
 
 .theirTLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 76px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 .theirHLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 54px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .theirELetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 74px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .theirILetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 58px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
 }
 .theirRLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 46px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 
 /* ROOT word */
 
 .rootRLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 59px;
-  color: ;
-  font-weight: ;
+  font-weight: bold;
 }
 .rootOLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 45px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: overline;
+  text-transform: none;
 }
 .rootOTwoLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 79px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .rootTLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 37px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
-  font-family: ;
+  font-family: 'DynaPuff', sans-serif;
   font-size: 57px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 .skillsKLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 75px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
 .skillsILetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 47px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: overline;
+  text-transform: none;
 }
 .skillsLLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 57px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
 }
 .skillsLTwoLetter {
-  font-family: ;
+  font-family: 'fuzzy-bubbles', sans-serif;
   font-size: 61px;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
 }
 .skillsSTwoLetter {
-  font-family: ;
+  font-family: 'dancing-script', sans-serif;
   font-size: 36px;
-  color: ;
-  font-weight: ;
+  font-weight: 400;
 }
 
 /* SYMBOLS */
 
 .symbol {
+  font-family: 'DynaPuff', sans-serif;
   font-size: 74px;
+  color: olive
 }
 
 .hyphen {
-  font-family: ;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
 }
 .exclamation-mark {
-  font-family: ;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-transform: none;
 }
 .question-mark {
-  font-family: ;
-  color: ;
-  font-weight: ;
-  text-decoration: ;
-  text-transform: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
 }
