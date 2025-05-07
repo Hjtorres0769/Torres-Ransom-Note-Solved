@@ -63,7 +63,7 @@ body {
 }
 
 .purpleLetter {
-  color: purple;
+  color: #7e067e;
 }
 
 .coralLetter {
@@ -71,11 +71,11 @@ body {
 }
 
 .redLetter {
-  color: red;
+  color: #ee4444;
 }
 
 .greenLetter {
-  color: green;
+  color: rgb(91, 221, 91);
 }
 
 .yellowLetter {
@@ -83,7 +83,7 @@ body {
 }
 
 .magentaLetter {
-  color: magenta;
+  color: rgb(238, 175, 238);
 }
 
 .goldLetter {
